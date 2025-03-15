@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Model Polytechnic College Painavu</title>
+   
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Poppins:wght@100;200&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,200&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="Images/ihrdlogorx.png" alt="" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html" style="color: white;">HOME</a></li>
+            <li><a href="about.html" style="color: white;">ABOUT</a></li>
+            <li><a href="courses.html" style="color: white;">COURSES</a></li>
+            <li><a href="blog.html" style="color: white;">BLOGS</a></li>
+            <li><a href="contact.html" style="color: white;">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>About Us</h1>
+    </section>
+
+    <!-- -----------------about us---------------------- -->
+
+    <section class="about-us">
+      <div class="row">
+        <div class="about-col">
+          <img src="Images/aboutus copy.jpg" alt="" />
+        </div>
+        <div class="about-col">
+          <h1>OUR MISSION</h1>
+          <p>
+            M1 - To create conducive learning atmosphere to the students interms of curricular and co-curricular, personal skills and soft skills.
+            <br>
+            M2 - To become a centre of excellence in serving technical education and training needs of society.
+            <br>
+            M3 - To create an environment conducive to technology transfer with industry and entrepreneurship skills.
+            <br>
+            M4 - To inculcate ethical values and lifelong learning for the sustainable development of the nation.
+
+          </p>
+          <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ----------footer---------------- -->
+
+    <section class="footer">
+      <h1>About Us</h1>
+      <div class="footer-intro">
+        <p>
+          Model Polytechnic College Painavu is running under the Institute of Human Resource Development established by Government of Kerala <br />The institution is dedicated to scientific advancement, technological progress and economic growth of the country through human resource development.
+        </p>
+      </div>
+      <div class="icons">
+        <a
+          href="https://www.facebook.com/p/MODEL-POLYTECHNIC-COLLEGE-PAINAVU-100071466303686/"
+          class="fa fa-facebook" target="_blank"
+        ></a>
+        <a  class="fa fa-twitter"></a>
+        <a
+          href="https://www.instagram.com/mpcpainavu/"
+          class="fa fa-instagram" target="_blank"
+        ></a>
+        <a
+          href="https://www.linkedin.com/school/model-polytechnic-college-painavu/"
+          class="fa fa-linkedin" target="_blank"
+        ></a>
+      </div>
+      <p>Made with <i class="fa fa-heart-o"></i></p>
+      
+    </section>
+    <!--Javascript for Toggle Menu-->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
